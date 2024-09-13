@@ -1,6 +1,7 @@
 /* Skills Section Styles */
+/* Skills Section Styles */
 #skills {
-  padding: 20px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center; /* Center all children horizontally */
@@ -8,16 +9,17 @@
 }
 
 #skills span {
-  font-size: 4rem;
+  font-size: 4.5rem;
+  color: #00b0b0;
 }
 
 #skills h1 {
-  font-size: 2.5rem;
-  color: #00a8a8;
-  margin-bottom: 40px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  animation: fadeInDown 1.5s ease-out;
+  font-size: 2.7rem;
+  color: #00c4c4;
+  margin-bottom: 45px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  animation: fadeInDown 1.3s ease-out;
 }
 
 #skills ul {
@@ -25,44 +27,45 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Added gap for spacing between icons */
+  gap: 25px; /* Increased gap for spacing between icons */
   justify-content: center; /* Center icons horizontally */
 }
 
 #skills li {
-  font-size: 1.8rem;
-  color: aliceblue;
-  font-weight: 500;
-  animation: fadeInUp 1.5s ease-out;
+  font-size: 1.9rem;
+  color: #f0f8ff;
+  font-weight: 600;
+  animation: fadeInUp 1.2s ease-out;
 }
 
 #skills img {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   object-fit: contain;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition for hover effects */
+  transition: transform 0.35s ease, box-shadow 0.35s ease; /* Smoothed transition */
+  border-radius: 50%; /* Added rounded borders for icons */
 }
 
 /* Hover Effect for Icons */
 #skills img:hover {
-  transform: scale(1.1);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transform: scale(1.15);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
 }
 
 #skills p {
-  font-size: 1.2rem;
-  color: aliceblue;
-  margin-top: 20px;
-  line-height: 1.6;
-  max-width: 900px;
-  animation: fadeInUp 2s ease-out;
+  font-size: 1.3rem;
+  color: #f0f8ff;
+  margin-top: 25px;
+  line-height: 1.7;
+  max-width: 850px;
+  animation: fadeInUp 1.8s ease-out;
 }
 
 /* Keyframe Animations */
 @keyframes fadeInDown {
   0% {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-25px);
   }
   100% {
     opacity: 1;
@@ -73,7 +76,7 @@
 @keyframes fadeInUp {
   0% {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(25px);
   }
   100% {
     opacity: 1;
@@ -84,7 +87,7 @@
 @keyframes fadeInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-20px);
+    transform: translateX(-25px);
   }
   100% {
     opacity: 1;
@@ -95,19 +98,40 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
   #skills h1 {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
+    margin-bottom: 30px;
   }
 
   #skills li {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   #skills img {
-    width: 48px;
-    height: 48px;
+    width: 60px;
+    height: 60px;
   }
 
   #skills p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #skills h1 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+
+  #skills li {
+    font-size: 1.4rem;
+  }
+
+  #skills img {
+    width: 50px;
+    height: 50px;
+  }
+
+  #skills p {
+    font-size: 0.9rem;
   }
 }

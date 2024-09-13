@@ -39,16 +39,16 @@ h1 {
 
 .text h1 {
   font-size: 2.8rem;
-  color: #00a8a8;
-  margin: 10px 0;
-  font-weight: bold;
+  color: #0030a8;
+  margin: 12px 0;
+  font-weight: bolder;
 }
 
 /* Animation for #ani */
 #ani {
   font-weight: bold;
-  color: #00a8a8;
-  display: inline-block;
+  color: #290ed6;
+  display: inline-flex;
   position: relative;
   cursor: pointer;
   padding-left: 10px;
@@ -59,8 +59,8 @@ h1 {
   display: inline-block;
   padding: 0.5em 0.75em;
   font-size: 1.2rem;
-  color: aliceblue;
-  background: linear-gradient(45deg, #142e39, #00a8a8);
+  color: rgb(19, 129, 226);
+  background: linear-gradient(45deg, #142e39, #8fa800);
   border: none;
   border-radius: 2em 1em 2em 0;
   cursor: pointer;
@@ -70,7 +70,7 @@ h1 {
 }
 
 .btn:hover {
-  background: linear-gradient(45deg, #00a8a8, #142e39);
+  background: linear-gradient(45deg, #92b4b4, #142e39);
   transform: translateY(-0.125em);
 }
 

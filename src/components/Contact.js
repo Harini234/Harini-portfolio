@@ -7,13 +7,10 @@ function Contact() {
     <div id="contact">
       <h1>Get In Touch</h1>
       <p>
-        I'm always open to new opportunities and conversations. Whether you're
-        interested in a potential collaboration, have questions about my work,
-        or just want to connect, don't hesitate to reach out. I look forward to
-        your message!
+      I’m always excited to explore new opportunities and engage in meaningful conversations. Whether you're considering a collaboration, have inquiries about my work, or simply want to connect, feel free to reach out. I look forward to hearing from you and building something great together!
       </p>
       <form
-        action="mailto:pranjalkee010@gmail.com"
+        action="mailto:akshmagnus789@gmail.com"
         method="POST"
         encType="text/plain"
       >
@@ -26,7 +23,7 @@ function Contact() {
           required
         ></textarea>
         <button type="submit" class="btn">
-          Send Message
+          Shoot the Message!
         </button>
       </form>
     </div>

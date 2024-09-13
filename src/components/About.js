@@ -5,7 +5,7 @@ function About() {
   const aniRef = useRef(null);
 
   useEffect(() => {
-    const texts = ["Engineer", "Developer", "Coder"];
+    const texts = ["Engineer", "Developer", "Coder","Chess Player"];
     let currentIndex = 0;
     let charIndex = 0;
     let deleting = false;
@@ -51,15 +51,15 @@ function About() {
       <div className="content">
         <div className="text">
           <p>Hello, I am</p>
-          <h1>Pranjal Kumar</h1>
+          <h1>Akshay Viswanathan</h1>
           <p>
             And I am
             <span id="ani" ref={aniRef}></span>
           </p>
-          <a href={`${process.env.PUBLIC_URL}/Pranjal_s_Resume__1_.pdf`}
+          <a href={`${process.env.PUBLIC_URL}/Akshay Viswanathan CV 2024.pdf`}
         
             className="btn"
-            download="Pranjal_Resume.pdf">
+            download="Akshay_Resume.pdf">
             Resume
           </a>
         </div>

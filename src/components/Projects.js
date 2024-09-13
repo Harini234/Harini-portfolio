@@ -5,25 +5,32 @@ import "./Projects.css";
 function Projects() {
   const projects = [
     {
-      title: "Cake Creation",
+      title: "Luminosity Drone",
       description:
-        "A modern web app for browsing and ordering cakes with an intuitive and visually appealing interface. Features a responsive design, smooth animations, and an easy-to-navigate cake gallery.",
-      link: "https://pranjalee30.github.io/cake/",
-      image: `${process.env.PUBLIC_URL}/images/cake.png`,
+        "Engineered and Simulated a virtual Luminosity Drone using Gazebo. The drone is simulated by ROS,Python and OpenCv is used here to detect light source in Gazebo environment where the drone will detect the source and hover over there being stable by help of implemented control system.",
+      link: "https://github.com/Mcpigeons04/Drone-Simulation-Gazebo",
+      image: `${process.env.PUBLIC_URL}/images/Drone.jpg`,
     },
     {
-      title: "Drumkit",
+      title: "User Registration Form",
       description:
-        "A fun web app that simulates a drum kit with interactive sound effects. Users can play different drum sounds by clicking on buttons or pressing keyboard keys.",
-      link: "https://pranjalee30.github.io/drumkit/",
-      image: `${process.env.PUBLIC_URL}/images/drumkit.png`,
+        "A user friendly registration and login form, where we test the data in Postman. During registration the data is sent to MongoDB databse with help of POST request and while login procedure the credentials is checked using JWT tokens.",
+      link: "https://github.com/Mcpigeons04/Backend-web-development",
+      image: `${process.env.PUBLIC_URL}/images/Postman.png`,
     },
     {
-      title: "Fyle",
+      title: "VishwaSamachar",
       description:
-        "A modern expense management web application with features for tracking, categorizing, and analyzing expenses. Includes a user-friendly interface for managing personal finances efficiently.",
-      link: "https://pranjalee30.github.io/Fyle-Pranjal/",
-      image: `${process.env.PUBLIC_URL}/images/Fyle.png`,
+        "Created a Custom API and deployed on render,where the data from API will be fetched and displayed at my news website.This projects aims in providing user various news in category wise.",
+      link: "https://github.com/Mcpigeons04/Vishwasamachar-reactjs-web",
+      image: `${process.env.PUBLIC_URL}/images/CustomAPI.png`,
+    },
+    {
+      title: "COMING SOON@",
+      description:
+        "Working on creation of Blog Chess website using Nextjs, Typescript and integrating AI, Coming Soon! Stay Tuned!",
+      link: "",
+      image: `${process.env.PUBLIC_URL}/images/comingsoon.jpg`,
     },
   ];
 

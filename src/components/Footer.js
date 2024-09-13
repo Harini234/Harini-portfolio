@@ -6,10 +6,10 @@ function Footer() {
   return (
     <footer>
       <div className="footer-content">
-        <p>&copy; 2024 Pranjal Kumar</p>
+        <p>&copy; 2024 Akshay Viswanathan</p>
         <div className="social-media">
           <a
-            href="https://x.com/pranjalk449"
+            href="https://x.com/Akshvisw04"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="X"
@@ -22,7 +22,7 @@ function Footer() {
             </i>
           </a>
           <a
-            href="https://www.linkedin.com/in/pranjal-kumar-184913228/"
+            href="https://www.linkedin.com/in/akshayviswanathan04/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -35,7 +35,7 @@ function Footer() {
             </i>
           </a>
           <a
-            href="https://github.com/pranjalee30"
+            href="https://github.com/Mcpigeons04"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -48,7 +48,7 @@ function Footer() {
             </i>
           </a>
           <a
-            href="mailto:pranjalkee010@gmail.com"
+            href="mailto:akshmagnus789@gmail.com"
             rel="noopener noreferrer"
             aria-label="Email"
           >
@@ -59,19 +59,7 @@ function Footer() {
               />
             </i>
           </a>
-          <a
-            href="https://www.instagram.com/_luminous_dreamer_/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Instagram"
-          >
-            <i className="fab fa-github">
-              <img
-                src={`${process.env.PUBLIC_URL}/images/icons8-instagram-48.png`}
-                alt="Instagram"
-              />
-            </i>
-          </a>
+
         </div>
         <p>Connect with me and let's work together!</p>
         <p>

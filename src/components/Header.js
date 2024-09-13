@@ -32,7 +32,7 @@ function Header() {
     <header>
       <nav ref={navRef}>
         <div class="logo">
-          PRAN<span>JAL</span>
+        AKSH<span>AY</span>
         </div>
         <div className="menu-icon" onClick={toggleMenu}>
           <div className="bar"></div>

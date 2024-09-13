@@ -58,6 +58,18 @@ function Skills() {
             alt="Github"
           />
         </li>
+        <li>
+          <img
+            src={`${process.env.PUBLIC_URL}/images/node js.png`}
+            alt="Nodejs"
+          />
+        </li>
+        <li>
+          <img
+            src={`${process.env.PUBLIC_URL}/images/MongoDB.png`}
+            alt="MongoDB"
+          />
+        </li>
       </ul>
       <p>
         As a Tech Enthusiast, I'm currently exploring in Software Development,

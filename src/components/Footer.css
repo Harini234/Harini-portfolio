@@ -1,5 +1,5 @@
 /* Basic styling for the footer */
-footer {
+/* footer {
   background: url("../../public/images/bg1.jpeg");
   background-size: cover;
   color: aliceblue;
@@ -49,7 +49,7 @@ footer {
   color: #00a8a8;
 }
 
-/* Responsive styles */
+
 @media (max-width: 768px) {
   .footer-content {
     padding: 10px 5px;
@@ -75,5 +75,84 @@ footer {
 
   .social-media a {
     font-size: 1rem;
+  }
+} */
+footer {
+  background: url("../../public/images/bg1.jpeg") no-repeat center center;
+  background-size: cover;
+  color: #f0f8ff;
+  padding: 20px 10px;
+  text-align: center;
+  border-top: 3px solid #555;
+  border-bottom: 3px solid #555;
+  margin-top: 15px;
+}
+
+.footer-content {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #00b0b0;
+  cursor: pointer;
+}
+
+.social-media {
+  margin: 20px 0;
+}
+
+.social-media a {
+  margin: 0 10px;
+  font-size: 1.4rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.social-media a:hover {
+  transform: scale(1.15);
+}
+
+.social-media i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer-link {
+  color: #f0f8ff;
+  text-decoration: underline;
+}
+
+.footer-link:hover {
+  color: #00b0b0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .footer-content {
+    padding: 12px 6px;
+  }
+
+  .footer-content p {
+    font-size: 0.85rem;
+  }
+
+  .social-media a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  footer {
+    padding: 12px 6px;
+  }
+
+  .footer-content p {
+    font-size: 0.75rem;
+  }
+
+  .social-media a {
+    font-size: 0.9rem;
   }
 }
