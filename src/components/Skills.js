@@ -74,9 +74,9 @@ function Skills() {
       <p>
         I am an Enthusiast in Software development and as well as hardware electronics.I daily upskill myself with various
         techstack in Software domain👨‍💻 and as well as learn new technologies in core electronics as well🙂.I am currently learning App development by 
-        using Kotlin.I am currently working in a project in HFSS which revolves around designing Antennas and optimising the design.
-        Apart from all these I am also an Aviation nerd and learning some concepts regarding it as well.
-        Last but not the least, I am also an avid chess player and represented my institute at various National level Tournaments.
+        using Kotlin.I am currently working in a project in HFSS which revolves around designing Antennas📡 and optimising the design.
+        Apart from all these I am also an Aviation nerd✈️ and learning some concepts regarding it as well.
+        Last but not the least, I am also an avid chess player♟️ and represented my institute at various National level Tournaments.
       </p>
     </section>
   );
