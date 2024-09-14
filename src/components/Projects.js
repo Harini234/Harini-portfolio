@@ -26,7 +26,7 @@ function Projects() {
       image: `${process.env.PUBLIC_URL}/images/CustomAPI.png`,
     },
     {
-      title: "COMING SOON@",
+      title: "COMING SOON!",
       description:
         "Working on creation of Blog Chess website using Nextjs, Typescript and integrating AI, Coming Soon! Stay Tuned!",
       link: "",

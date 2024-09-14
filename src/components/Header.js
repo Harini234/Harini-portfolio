@@ -63,7 +63,7 @@ function Header() {
           </li>
           <li>
             <a href="#contact" onClick={(e) => handleNavigation(e, "contact")}>
-              <span>☎️</span>
+              <span>📞</span>
               <span>Contact Me</span>
             </a>
           </li>
