@@ -45,8 +45,8 @@
   padding: 12px 20px;
   border: none;
   border-radius: 5px;
-  background-color: aliceblue;
-  color: black;
+  background-color: rgb(246, 247, 247);
+  color: rgb(183, 37, 37);
   width: 100vh;
   max-width: 500px;
 }

@@ -1,67 +1,34 @@
-// src/components/Projects.js
+//src/components/Projects.js
+
 import React from "react";
 import "./Projects.css";
 
-function Projects() {
-  const projects = [
-    {
-      title: "Luminosity Drone",
-      description:
-        "Engineered and Simulated a virtual Luminosity Drone using Gazebo. The drone is simulated by ROS,Python and OpenCv is used here to detect light source in Gazebo environment where the drone will detect the source and hover over there being stable by help of implemented control system.",
-      link: "https://github.com/Mcpigeons04/Drone-Simulation-Gazebo",
-      image: `${process.env.PUBLIC_URL}/images/Drone.jpg`,
-    },
-    {
-      title: "User Registration Form",
-      description:
-        "A user friendly registration and login form, where we test the data in Postman. During registration the data is sent to MongoDB databse with help of POST request and while login procedure the credentials is checked using JWT tokens.",
-      link: "https://github.com/Mcpigeons04/Backend-web-development",
-      image: `${process.env.PUBLIC_URL}/images/Postman.png`,
-    },
-    {
-      title: "VishwaSamachar",
-      description:
-        "Created a Custom API and deployed on render,where the data from API will be fetched and displayed at my news website.This projects aims in providing user various news in category wise.",
-      link: "https://github.com/Mcpigeons04/Vishwasamachar-reactjs-web",
-      image: `${process.env.PUBLIC_URL}/images/CustomAPI.png`,
-    },
-    {
-      title: "COMING SOON!",
-      description:
-        "Working on creation of Blog Chess website using Nextjs, Typescript and integrating AI, Coming Soon! Stay Tuned!",
-      link: "",
-      image: `${process.env.PUBLIC_URL}/images/comingsoon.jpg`,
-    },
-  ];
+function Experience() {
+  const experienceText = `
+    As a dedicated Software Engineer at Bank Of America, I have been actively involved in designing,
+    developing, and deploying a wide range of software solutions that meet both client and internal business requirements.
+    I specialize in front-end development, with expertise in technologies such as JavaScript, React.
+    My experience extends to creating complex REST APIs, integrating various databases, and implementing efficient
+    backend systems that ensure scalability and performance.
+
+    Throughout my professional journey, I have worked closely with cross-functional teams, applying Agile methodologies
+    to deliver high-quality products within deadlines. My strong problem-solving skills and a passion for learning new
+    technologies have enabled me to contribute significantly to a variety of challenging projects, from web development
+    and cloud-based solutions to optimizing machine learning models.
+
+    In addition to my technical capabilities, I am passionate about mentoring junior developers, enhancing collaboration
+    within teams, and continuously improving software development processes. I thrive in dynamic environments, where my
+    curiosity and drive to innovate enable me to deliver robust, scalable, and user-centric solutions.
+  `;
 
   return (
-    <section id="projects">
-      <h1>Projects</h1>
-      <div className="projects-container">
-        {projects.map((project, index) => (
-          <div className="project" key={index}>
-            <img
-              src={project.image}
-              alt={project.title}
-              className="project-image"
-            />
-            <div className="project-content">
-              <h2>{project.title}</h2>
-              <p>{project.description}</p>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn"
-              >
-                View Project
-              </a>
-            </div>
-          </div>
-        ))}
+    <section id="experience">
+      <h1>Experience</h1>
+      <div className="experience-content">
+        <p>{experienceText}</p>
       </div>
     </section>
   );
 }
 
-export default Projects;
+export default Experience;

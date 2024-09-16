@@ -6,23 +6,10 @@ function Footer() {
   return (
     <footer>
       <div className="footer-content">
-        <p>&copy; 2024 Akshay Viswanathan</p>
+        <p>&copy; 2024 Harini Viswanathan</p>
         <div className="social-media">
           <a
-            href="https://x.com/Akshvisw04"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="X"
-          >
-            <i className="fab fa-twitter">
-              <img
-                src={`${process.env.PUBLIC_URL}/images/icons8-twitter-48.png`}
-                alt="X"
-              />
-            </i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/akshayviswanathan04/"
+            href="https://www.linkedin.com/in/harini-viswanathan-60947321b/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -35,7 +22,7 @@ function Footer() {
             </i>
           </a>
           <a
-            href="https://github.com/Mcpigeons04"
+            href="https://github.com/Har238"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -48,7 +35,7 @@ function Footer() {
             </i>
           </a>
           <a
-            href="mailto:akshmagnus789@gmail.com"
+            href="mailto:viswanathantm1970@gmail.com"
             rel="noopener noreferrer"
             aria-label="Email"
           >

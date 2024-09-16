@@ -1,134 +1,46 @@
-/* Projects Section Styles */
-#projects {
+/* Experience Section */
+#experience {
   padding: 40px 20px;
-  color: aliceblue;
   text-align: center;
+  background-color: #142e39; /* Optional background color */
 }
 
-#projects h1 {
+/* Heading for the Experience section */
+#experience h1 {
   font-size: 3rem;
   color: #00a8a8;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-weight: bold;
   letter-spacing: 1px;
   animation: fadeInDown 1.5s ease-out;
 }
 
-/* Container for projects */
-.projects-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 50px;
-}
-
-/* Individual project card */
-.project {
-  background: url("../../public/images/bg1.jpeg");
-  background-size: cover;
-  border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  max-width: 450px;
-  text-align: center;
-  padding: 20px;
-  border: 1px solid #444;
-}
-
-/* Project image */
-.project-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 15px;
-}
-
-/* Project content */
-.project-content {
-  padding: 15px;
-}
-
-/* Project title */
-.project h2 {
-  font-size: 1.6rem;
-  color: #00a8a8;
-  margin: 10px 0;
-}
-
-/* Project description */
-.project p {
-  font-size: 0.95rem;
-  margin: 10px 0;
-  line-height: 1.6;
-}
-
-/* Project button */
-.btn {
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  font-size: 1.2rem;
-  color: aliceblue;
-  background: linear-gradient(45deg, #142e39, #00a8a8);
-  border: none;
-  border-radius: 2em 1em 2em 0;
-  cursor: pointer;
-  text-decoration: none;
-  transition: 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.2);
-}
-
-.btn:hover {
-  background: linear-gradient(45deg, #00a8a8, #142e39);
-  transform: translateY(-0.125em);
-}
-
-.btn:active {
-  transform: translateY(0);
-}
-
-/* Keyframe Animations */
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* Experience content (paragraph) */
+.experience-content p {
+  font-size: 1.1rem;
+  color: aliceblue; /* White text */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Nice readable font */
+  line-height: 1.8; /* Line height for better readability */
+  max-width: 800px; /* Limit width for readability */
+  margin: 0 auto; /* Center the paragraph */
+  padding: 0 20px; /* Add some padding for smaller screens */
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-  #projects h1 {
+  #experience h1 {
     font-size: 2.2rem;
   }
 
-  .project {
-    max-width: 380px;
-  }
-
-  .project h2 {
-    font-size: 1.3rem;
-  }
-
-  .project p {
-    font-size: 0.85rem;
-  }
-
-  .btn {
-    font-size: 0.9rem;
-    padding: 0.4em 1em;
+  .experience-content p {
+    font-size: 1rem;
+    padding: 0 15px;
   }
 }
 
 @media (max-width: 480px) {
-  .project-image {
-    height: 150px;
-  }
-
-  .btn {
-    padding: 0.4em 0.8em;
+  .experience-content p {
+    font-size: 0.95rem;
+    padding: 0 10px;
   }
 }

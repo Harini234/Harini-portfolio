@@ -60,23 +60,17 @@ function Skills() {
         </li>
         <li>
           <img
-            src={`${process.env.PUBLIC_URL}/images/node js.png`}
-            alt="Nodejs"
-          />
-        </li>
-        <li>
-          <img
-            src={`${process.env.PUBLIC_URL}/images/MongoDB3.jpg`}
-            alt="MongoDB"
+            src={`${process.env.PUBLIC_URL}/images/chsarp.jpg`}
+            alt="C#"
           />
         </li>
       </ul>
       <p>
-        I am an Enthusiast in Software development and as well as hardware electronics.I daily upskill myself with various
-        techstack in Software domain👨‍💻 and as well as learn new technologies in core electronics as well🙂.I am currently learning App development by 
-        using Kotlin.I am currently working in a project in HFSS which revolves around designing Antennas📡 and optimising the design.
-        Apart from all these I am also an Aviation nerd✈️ and learning some concepts regarding it as well.
-        Last but not the least, I am also an avid chess player♟️ and represented my institute at various National level Tournaments.
+        I am a Software Engineer at Bank Of America.I daily upskill myself with various
+        techstack in Software domain👨‍💻 by referring some of the good articles from internet, Notably from daily.dev🙂.I am currently
+        working in a team at C# related domain.
+        Last but not the least, I have great interest and passion in delivering and articulating my thought process by means of public speaking.
+        Recently I also came across opportunity at TEDex and I see this as a great opportunity to present my views globally!
       </p>
     </section>
   );
